@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_text_books"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/logo">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Heat And Mass Transfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/handtt"
+             />
+        <Button
+            android:text="Thermodynamics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/thermodynamics"
+            />
+        <Button
+            android:text="Fluid Mechanics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fluidmec"
+            />
+        <Button
+            android:text="strength of materials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/strength"
+            />
+        <Button
+            android:text="Mechanics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mechanics"
+            />
+        <Button
+            android:text="manufacture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacture"
+            />
+        <Button
+            android:text="industrial and operations research"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/iandor"
+            />
+        <Button
+            android:text="Refrigeration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ref"
+            />
+        <Button
+            android:text="power plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/power"
+            />
+        <Button
+            android:text="machine design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/md"
+            />
+        <Button
+            android:text="Theory of machines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tofm"
+            />
+        <Button
+            android:text="automobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/auto"
+            />
+        <Button
+            android:text="material science"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/materialscience"
+            />
+        <Button
+            android:text="vibrations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vib"
+            />
+    </LinearLayout>
+</ScrollView>

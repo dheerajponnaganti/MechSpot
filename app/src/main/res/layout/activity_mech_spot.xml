@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mech_spot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dheeraj.mechspot.MechSpot">
+
+
+    <Button
+        android:text="credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/credits"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:onClick="credits"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        android:layout_marginRight="8dp" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="247dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView3"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="9dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="328dp"
+        android:id="@+id/linearLayout"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="239dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+
+        <Button
+            android:text="Text Books"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textbooks"
+            tools:layout_editor_absoluteY="344dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <Button
+            android:text="E-Books"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/ebooks"
+            tools:layout_conversion_absoluteX="16dp"
+            tools:layout_conversion_absoluteY="296dp"
+            tools:layout_conversion_absoluteWidth="352dp"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_editor_absoluteY="296dp"
+            tools:layout_editor_absoluteX="16dp" />
+        <Button
+            android:text="hand written books"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/handbooks"
+            tools:layout_conversion_absoluteX="16dp"
+            tools:layout_conversion_absoluteY="296dp"
+            tools:layout_conversion_absoluteWidth="352dp"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_editor_absoluteY="296dp"
+            tools:layout_editor_absoluteX="16dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

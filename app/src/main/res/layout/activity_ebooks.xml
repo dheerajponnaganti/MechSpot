@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ebooks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dheeraj.mechspot.Ebooks"
+    android:background="@drawable/logo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="heat and mass transfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rajput" />
+        <Button
+            android:text="fluid mechanics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fluidm" />
+        <Button
+            android:text="machine design"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="md" />
+        <Button
+            android:text="theory of machines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tm" />
+        <Button
+            android:text="engineering mechanics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="em" />
+        <Button
+            android:text="thermodynamics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="thermo" />
+        <Button
+            android:text="Automobile engineering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="auto" />
+
+        <Button
+            android:text="Material science and engineering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ms" />
+        <Button
+            android:text="Manufacturing technology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="mt" />
+
+
+    </LinearLayout>
+
+</ScrollView>

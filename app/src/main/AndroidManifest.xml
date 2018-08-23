@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dheeraj.mechspot">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MechSpot">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TextBooks"
+            android:label="e-Books" />
+        <activity
+            android:name=".HeatAndMassTransfer"
+            android:label="Heat And Mass Transfer" />
+        <activity
+            android:name=".Thermodynamics"
+            android:label="Thermodynamics" />
+        <activity
+            android:name=".FluidMechanics"
+            android:label="Fluid Mechanics" />
+        <activity
+            android:name=".StrengthOfMaterials"
+            android:label="Strength of Materials" />
+        <activity
+            android:name=".Mechanics"
+            android:label="Mechanics" />
+        <activity
+            android:name=".Manufacturing"
+            android:label="Manufacture" />
+        <activity
+            android:name=".IndustrialAndOperationsResearch"
+            android:label="Industrial And Operations Research" />
+        <activity
+            android:name=".Refrigeration"
+            android:label="Refrigeration" />
+        <activity
+            android:name=".PowerPlant"
+            android:label="Power Plant" />
+        <activity
+            android:name=".MachineDesign"
+            android:label="Macine Design" />
+        <activity
+            android:name=".TheoryOfMachines"
+            android:label="Theory Of Machines" />
+        <activity
+            android:name=".Automobile"
+            android:label="Automobile" />
+        <activity
+            android:name=".MaterialScience"
+            android:label="Material Science" />
+        <activity
+            android:name=".Vibrations"
+            android:label="Vibrations" />
+        <activity
+            android:name=".Ebooks"
+            android:label="Text Books" />
+        <activity android:name=".HandWrittenNotes" />
+        <activity android:name=".credits"
+            android:label="Credits"></activity>
+    </application>
+
+</manifest>

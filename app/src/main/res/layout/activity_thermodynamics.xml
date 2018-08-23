@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_thermodynamics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dheeraj.mechspot.Thermodynamics"
+    android:background="@drawable/logo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="p.k.nag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link1" />
+        <Button
+            android:text="n.d.hari das"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link2" />
+        <Button
+            android:text="r.k.rajput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link3" />
+        <Button
+            android:text="cenjil boles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link4" />
+        <Button
+            android:text="sanford klien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link5" />
+        <Button
+            android:text="mark j assael"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link6" />
+        <Button
+            android:text="Borgnakke 8e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link7" />
+        <Button
+        android:text="robert balmer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link8" />
+        <Button
+        android:text="No author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link9" />
+        <Button
+        android:text="moran,shapiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link10" />
+        <Button
+        android:text="eastop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link11" />
+        <Button
+        android:text="y v c rao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link12" />
+        <Button
+        android:text="schaums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link13" />
+        <Button
+        android:text="chih wu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link14" />
+        <Button
+        android:text="no author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link15" />
+        <Button
+        android:text="bill poirier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link16" />
+        <Button
+        android:text="onkar singh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link17" />
+        <Button
+        android:text="merle c. potter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link18" />
+        <Button
+        android:text="cengel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link19" />
+        <Button
+        android:text="Brognakke sonntag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link20" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

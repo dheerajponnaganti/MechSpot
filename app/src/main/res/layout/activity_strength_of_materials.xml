@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_strength_of_materials"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dheeraj.mechspot.StrengthOfMaterials"
+    android:background="@drawable/logo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="BHAVIKATTI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link1" />
+        <Button
+            android:text="RILEY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link2" />
+        <Button
+        android:text="JAMES GERE, GOODNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:onClick="link3" />
+        <Button
+            android:text="JAMES GERE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link4" />
+        <Button
+            android:text="SURYA PATNAIK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link5" />
+        <Button
+            android:text="TIMOSHENKO and YOUNG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link6" />
+        <Button
+            android:text="BEER and JOHNSTON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link7" />
+        <Button
+            android:text="JOHNSTON and BEER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link8" />
+        <Button
+            android:text="JAMES BOYD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link9" />
+        <Button
+            android:text="MERRIMAN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link10" />
+        <Button
+            android:text="R.K. BANSAL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link11" />
+        <Button
+            android:text="TIMOSHENKO(1)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link12" />
+        <Button
+            android:text="TIMOSHENKO(2)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link13" />
+        <Button
+            android:text="WILLIAM A. NASH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link14" />
+        <Button
+            android:text="PYTEL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link15" />
+        <Button
+            android:text="VITOR DIAS SILVA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link16" />
+        <Button
+            android:text="SCHAUM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link17" />
+        <Button
+            android:text="JOHN CASE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link18" />
+        <Button
+            android:text="G.H. RYDER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link19" />
+        <Button
+            android:text="WARREN C. YOUNG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link20" />
+        <Button
+            android:text="IRVING LEVINSON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link21" />
+        <Button
+            android:text="IRVING LEVINSON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link22" />
+        <Button
+            android:text="R.C. HIBBELER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link23" />
+        <Button
+            android:text="E.J. HEARN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link24" />
+        <Button
+            android:text="PUNMIA 1-3 Chapters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link25" />
+    </LinearLayout>
+</ScrollView>

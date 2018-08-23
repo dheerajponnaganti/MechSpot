@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_heat_and_mass_transfer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dheeraj.mechspot.HeatAndMassTransfer"
+    android:background="@drawable/logo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="Incropera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link1" />
+        <Button
+            android:text="Yunus cengel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link2" />
+        <Button
+            android:text="r.k. Rajput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link3" />
+        <Button
+            android:text="p.k.nag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link4" />
+        <Button
+            android:text="kotandaraman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link5" />
+        <Button
+            android:text="frank kreith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link6" />
+        <Button
+            android:text="vedat s. arpaci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link7" />
+        <Button
+            android:text="john lienhard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link8" />
+        <Button
+            android:text="j.p.holman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="link9" />
+    </LinearLayout>
+</RelativeLayout>
